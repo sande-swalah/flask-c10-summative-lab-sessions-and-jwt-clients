@@ -1,7 +1,3 @@
-# Productivity API (Session Auth)
-
-## Project Description
-This project is a Flask backend API for a productivity journal app. It supports user authentication using sessions and a protected user-owned resource (`journal_entries`) with full CRUD operations and pagination.
 
 ## Features
 - Session-based authentication
@@ -42,8 +38,6 @@ This project is a Flask backend API for a productivity journal app. It supports 
 - `POST /login`
   - Logs in an existing user and starts a session.
   - Body: `{ "username": "string", "password": "string" }`
-- `GET /check_session`
-  - Returns currently logged in user if authenticated.
 - `DELETE /logout`
   - Clears active user session.
 
